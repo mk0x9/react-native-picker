@@ -19,4 +19,6 @@ Pod::Spec.new do |s|
     ss.public_header_files = ['ios/RCTBEEPickerManager/*.h']
   end
 
+  s.dependency 'React'
+
 end
